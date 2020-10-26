@@ -1,0 +1,74 @@
+{
+    "musics": [
+        {
+            "id": "23489",
+            "name": "Beaver Creek",
+            "artist": "Middle School, Aso & Aviino",
+            "img": "https://images.shazam.com/coverart/t537023418-b1531299555_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/beaverCreek.mp3?alt=media&token=bbe1c33c-5d19-4dce-bfa1-f8ca9db8b273"
+        },
+        {
+            "id": "48763",
+            "name": "Nightfall",
+            "artist": "Aiguille",
+            "img": "https://images.shazam.com/coverart/t529658330-b1522907386_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/nightfall.mp3?alt=media&token=70035aba-6ee5-425f-8596-6e71331941b1"
+        },
+        {
+            "id": "48692",
+            "name": "Keep Going",
+            "artist": "Sworn",
+            "img": "https://images.shazam.com/coverart/t530259918-b1523674659_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/keepGoing.mp3?alt=media&token=5d3924be-ada8-42f1-ad6d-803671dbaa3a"
+        },
+        {
+            "id": "12032",
+            "name": "Firefly Field",
+            "artist": "Middle School, Aso & Aviino",
+            "img": "https://images.shazam.com/coverart/t537023422-b1531299558_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/fireflyField.mp3?alt=media&token=40d4a885-a82f-4b4d-8109-b576dbe411cc"
+        },
+        {
+            "id": "89342",
+            "name": "Daydream",
+            "artist": "Aiguille",
+            "img": "https://images.shazam.com/coverart/t529658339-b1522907387_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/daydream.mp3?alt=media&token=16b6a57b-dac4-452a-9e2e-3d5eb2ee3b01"
+        },
+        {
+            "id": "57871",
+            "name": "Flower",
+            "artist": "Sworn",
+            "img": "https://images.shazam.com/coverart/t458009703-b1513593872_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/flower.mp3?alt=media&token=8c225136-2fb4-4814-8159-b750260d821d"
+        },
+        {
+            "id": "76623",
+            "name": "Canary Forest",
+            "artist": "Middle School, Aso & Aviino",
+            "img": "https://images.shazam.com/coverart/t537023421-b1531299554_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/canaryForest.mp3?alt=media&token=737c1821-b4dd-463b-9573-cefd0a49e5bf"
+        },
+        {
+            "id": "42368",
+            "name": "Daylight",
+            "artist": "Aiguille",
+            "img": "https://images.shazam.com/coverart/t529658330-b1522907386_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/daylight.mp3?alt=media&token=3e4c909e-9118-49c5-bce7-793676518e47"
+        },
+        {
+            "id": "93248",
+            "name": "Butterfly",
+            "artist": "Sworn",
+            "img": "https://images.shazam.com/coverart/t458009702-b1513593870_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/butterfly.mp3?alt=media&token=cdd74d91-fa65-4ead-8370-29584947e718"
+        },
+        {
+            "id": "75214",
+            "name": "Under the City Stars",
+            "artist": "Middle School, Aso & Aviino",
+            "img": "https://images.shazam.com/coverart/t537023418-b1531299555_s400.jpg",
+            "music": "https://firebasestorage.googleapis.com/v0/b/music-app-f286d.appspot.com/o/undertheCityStars.mp3?alt=media&token=00a28b47-dbd4-45b1-aedf-23609294b64e"
+        }
+    ]
+}

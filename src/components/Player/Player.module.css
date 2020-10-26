@@ -1,0 +1,165 @@
+.player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+    z-index: 3;
+}
+
+.poster {
+    object-fit: contain;
+    border-radius: 30rem;
+    height: 30rem;
+    margin: 2rem 0;
+    margin-top: 3rem;
+}
+
+.player__name {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.player__sub {
+    font-size: 1.5rem;
+    color: rgb(85, 85, 85);
+    z-index: 20 !important;
+}
+
+.player__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    margin-right: 10rem;
+}
+
+.player__button {
+    object-fit: contain;
+    background: transparent;
+    display: inline-block;
+    margin: 3rem 0 0rem 10rem;
+    cursor: pointer;
+    border: none !important;
+    outline: none !important;
+}
+
+.player__button>svg {
+    font-size: 3.4rem;
+}
+
+.player__times {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.player__times>span {
+    margin: 0 1rem;
+    font-size: 1.4rem;
+}
+
+.player__volume {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.player__volume>div {
+    width: 20%;
+    /* margin-left: -5rem; */
+}
+
+.player__volume>div>svg {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+
+.posterPLay {
+    animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .player {
+        z-index: 0;
+    }
+    .player__btns {
+        margin-right: 0rem;
+    }
+    .player__button {
+        margin: 3rem 0rem 0rem 8rem;
+        padding-right: 0rem;
+    }
+    .player__volume {
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .poster {
+        height: 25rem;
+    }
+    .player__name {
+        font-size: 2.5rem;
+    }
+    .player__sub {
+        font-size: 1.3rem;
+    }
+    .player__button {
+        margin: 3rem 0 0rem 5rem;
+    }
+    .player__volume {
+        margin-right: 10rem;
+        width: 100%;
+    }
+    .player__volume>div {
+        width: 60%;
+        /* margin-left: -5rem; */
+    }
+    .player__button>svg {
+        font-size: 3rem;
+    }
+    .player__times>span {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .poster {
+        height: 20rem;
+    }
+    .player__name {
+        font-size: 2.4rem;
+    }
+    .player__sub {
+        font-size: 1.2rem;
+    }
+    .player__button {
+        margin: 3rem 0 0rem 5rem;
+    }
+    .player__volume {
+        margin-right: 5rem;
+    }
+    .player__button>svg {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .player__button {
+        margin: 3rem 0 0rem 3rem;
+    }
+    .player__volume {
+        margin-right: 5rem;
+    }
+}

@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 4rem;
+    background-color: #3F51B5;
+    padding: 0.5rem;
+}
+
+.footer__power {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(199, 199, 199);
+    margin-top: 1rem;
+}
+
+.footer__power>a, .footer__power>a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        margin-top: 2rem;
+    }
+}

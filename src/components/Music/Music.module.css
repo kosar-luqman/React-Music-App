@@ -1,0 +1,37 @@
+.navbar__music {
+    display: flex;
+    align-items: center;
+    /* background-color: #c0cefe; */
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+}
+
+.navbar__music>img {
+    object-fit: contain;
+    height: 7rem;
+}
+
+.navbar__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    color: rgb(105, 105, 105);
+    font-size: 1.1rem;
+}
+
+.navbar__content>h3 {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar__music>img {
+        height: 5rem;
+    }
+    .navbar__content {
+        font-size: 1rem;
+    }
+    .navbar__content>h3 {
+        font-size: 1.5rem;
+    }
+}

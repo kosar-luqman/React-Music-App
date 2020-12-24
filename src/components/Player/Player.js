@@ -16,7 +16,7 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import Forward10 from '@material-ui/icons/Forward10';
 import Bakward from '@material-ui/icons/SettingsBackupRestore';
 
-const Player = ({ data, handleMuicNow, selectMusic, leng }) => {
+const Player = ({ data, handleMuicNow, selectMusic, leng, toLeft }) => {
     const [vol, setVol] = useState(0.6)
     const [volIsOff, setVolIsOff] = useState(false)
 
@@ -63,19 +63,25 @@ const Player = ({ data, handleMuicNow, selectMusic, leng }) => {
         }
     };
 
+    const getTime = (time) => {
+        return Math.floor(time / 60) + ":" + ("0" + Math.floor(time % 60)).slice(-2)
+    }
+
     return (
-        <div className={classes.player}>
+        <div className={`${classes.player} ${toLeft && classes.playerLeft}`}>
             <img alt="poster" src={data?.img} className={`${classes.poster} ${!state.paused && classes.posterPLay}`} />
             <h1 className={classes.player__name}>{data?.name}</h1>
             <p className={classes.player__sub}>{data?.artist}</p>
 
             <div className={classes.player__times}>
-                <span>{(state.time / 60).toFixed(2)}</span>
+                <span>{getTime(state.time)}</span>
+                {/* <span>{(state.time / 60).toFixed(2)}</span> */}
                 <Progress
                     now={state.time}
                     max={state.duration}
                 />
-                <span>{(state.duration / 60).toFixed(2)}</span>
+                <span>{getTime(state.duration)}</span>
+                {/* <span>{(state.duration / 60).toFixed(2)}</span> */}
             </div>
 
             {element}

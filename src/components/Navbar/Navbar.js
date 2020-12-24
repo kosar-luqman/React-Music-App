@@ -3,7 +3,7 @@ import Music from '../Music/Music'
 import classes from './Navbar.module.css'
 import MusicNoteIcon from '@material-ui/icons/MusicNote'
 
-function Navbar({ data, handleMuicNow, selectMusic }) {
+function Navbar({ data, handleMuicNow, selectMusic, getShowNav }) {
     const [selected, setSelected] = useState(0)
     const [showNav, setShowNav] = useState(false)
 
@@ -18,6 +18,10 @@ function Navbar({ data, handleMuicNow, selectMusic }) {
     useEffect(() => {
         handleMuicNow(selected)
     }, [selected])
+
+    useEffect(() => {
+        getShowNav(showNav)
+    }, [showNav])
 
     return (
         <div className={classes.all}>

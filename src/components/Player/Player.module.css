@@ -5,6 +5,11 @@
     transform: translate(-50%, -45%);
     text-align: center;
     z-index: 3;
+    transition: margin 0.5s ease;
+}
+
+.playerLeft {
+    margin-left: 15%;
 }
 
 .poster {
